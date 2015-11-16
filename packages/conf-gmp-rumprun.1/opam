@@ -3,7 +3,7 @@ maintainer: "martin@lucina.net"
 homepage: "http://gmplib.org/"
 license: "GPL"
 build: [
-    [ "./configure" "--host=%{ocaml-rumprun-prefix}" "--prefix=%{ocaml-rumprun-prefix}%/lib/conf-gmp" "--disable-shared" ]
+    [ "./configure" "--host=%{ocaml-rumprun-prefix}%" "--prefix=%{ocaml-rumprun-prefix}%/lib/conf-gmp" "--disable-shared" ]
     [ "make" ]
 ]
 install: [
